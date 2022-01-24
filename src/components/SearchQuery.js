@@ -4,14 +4,14 @@ import TvCard from "./TvCard";
 
 export default function SearchhQuery(){
     const [submit, setSubmit]=useState(false)
-    var w = window.innerWidth;
-    console.log(w)
 
     const [query, setQuery]=useState('');
 
     const [movies, setMovies]=useState([]);
     const [tv, setTv]=useState([])
-    console.log(movies)
+    // console.log(movies)
+     const API_KEY=process.env.REACT_APP_API_KEY
+     console.log(API_KEY)
 
     function inpt(e){
         setQuery(e.target.value)
@@ -21,8 +21,8 @@ export default function SearchhQuery(){
     async function search(e){
         e.preventDefault();
 
-        const url=`https://api.themoviedb.org/3/search/movie?api_key=55923befa737a394f4e020e5e9024838&language=en-US&query=${query}&page=1&include_adult=false`
-        const url2=`https://api.themoviedb.org/3/search/tv?api_key=55923befa737a394f4e020e5e9024838&language=en-US&query=${query}&page=1&include_adult=false`
+        const url=`https://api.themoviedb.org/3/search/movie?api_key=${API_KEY}&language=en-US&query=${query}&page=1&include_adult=false`
+        const url2=`https://api.themoviedb.org/3/search/tv?api_key=${API_KEY}&language=en-US&query=${query}&page=1&include_adult=false`
          const urls=[url,url2]
 
 

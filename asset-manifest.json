@@ -1,0 +1,10 @@
+{
+  "files": {
+    "main.js": "/vaultflix/static/js/main.014902f0.js",
+    "index.html": "/vaultflix/index.html",
+    "main.014902f0.js.map": "/vaultflix/static/js/main.014902f0.js.map"
+  },
+  "entrypoints": [
+    "static/js/main.014902f0.js"
+  ]
+}

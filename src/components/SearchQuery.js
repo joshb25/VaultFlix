@@ -11,7 +11,7 @@ export default function SearchhQuery(){
     const [tv, setTv]=useState([])
     // console.log(movies)
      const API_KEY=process.env.REACT_APP_API_KEY
-     console.log(API_KEY)
+    //  console.log(API_KEY)
 
     function inpt(e){
         setQuery(e.target.value)
@@ -61,6 +61,7 @@ export default function SearchhQuery(){
                     value={query}
                     className="input"
                     onChange={inpt}
+                    required
                 />
                 <button type="submit" className="button">search</button>
             </form>

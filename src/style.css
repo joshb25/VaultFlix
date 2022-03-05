@@ -30,7 +30,7 @@ body {
   padding: 0;
   font-family: var(--ff-primary);
   font-size: var(--fs-body);
-  background-image: url(popcorn.jpg);
+  background-image: url("/public/popcorn.jpg");
   background-position: center;
   background-size: 100%;
   background-repeat: no-repeat;

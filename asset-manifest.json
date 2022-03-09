@@ -1,10 +1,14 @@
 {
   "files": {
+    "main.css": "/vaultflix/static/css/main.5f316daf.css",
     "main.js": "/vaultflix/static/js/main.014902f0.js",
+    "static/media/popcorn.jpg": "/vaultflix/static/media/popcorn.705f9b02c68e0a5153d9.jpg",
     "index.html": "/vaultflix/index.html",
+    "main.5f316daf.css.map": "/vaultflix/static/css/main.5f316daf.css.map",
     "main.014902f0.js.map": "/vaultflix/static/js/main.014902f0.js.map"
   },
   "entrypoints": [
+    "static/css/main.5f316daf.css",
     "static/js/main.014902f0.js"
   ]
 }

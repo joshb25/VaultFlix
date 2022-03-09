@@ -162,3 +162,33 @@ header {
 .rating {
   color: #ffd700;
 }
+
+@media screen and (max-width: 360px) {
+  body {
+    background-size: cover;
+  }
+
+  header {
+    width: 90%;
+  }
+
+  form {
+    width: 90% !important;
+  }
+
+  label {
+    display: none;
+  }
+
+  .card {
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    padding: 1em;
+  }
+
+  .card img {
+    margin: 0 auto;
+    width: 80%;
+  }
+}
